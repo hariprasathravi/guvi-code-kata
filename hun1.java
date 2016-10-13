@@ -7,7 +7,7 @@ public class array
   int index1,index2;
   for(index1=0;index1<arr.length;index1++)
    {
-    for(index2=1;index2<arr.length;index2++)
+    for(index2=index1+1;index2<arr.length;index2++)
      {
       if(arr[index1]==arr[index2])
        {
